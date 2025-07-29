@@ -1,9 +1,28 @@
 {
-    "pylint.args": [
-        "--disable=W0105,E1101,W0614,C0111,C0301",
-        "--load-plugins=pylint_django",
-        "--django-settings-module=bangazon.settings",
-        "--max-line-length=120"
-    ],
+  "pylint.args": [
+    "--disable=W0105,E1101,W0614,C0111,C0301",
+    "--load-plugins=pylint_django",
+    "--django-settings-module=bangazon.settings",
+    "--max-line-length=120"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#acc645",
+    "activityBar.background": "#acc645",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#2d7e92",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#acc645",
+    "statusBar.background": "#8ea533",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#6c7e27",
+    "statusBarItem.remoteBackground": "#8ea533",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#8ea533",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#8ea53399",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#8ea533"
 }
-
